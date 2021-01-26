@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>exemplo de formulário</h1>
+    <form action="#" method="get" class="formlogin">
+        <fieldset>
+            <legend>dados pessoais</legend>
+
+            <label>email</label>
+            <input type="email" placeholder="digite um email">
+            <label>numero de filhos</label>
+            <input type="number" min="0" max="1000" step="0.5">
+            <label>nascimento</label>
+            <input type="date" min="2018-01-30" max="2138-01-30">
+            <input type="submit" value="mandar">
+            <p>sexo</p>
+            <input type="radio" name="sexo">
+            <label>masculino</label>
+            <input type="radio" name="sexo">
+            <label>feminino</label>
+            <input type="submit" value="mandar">
+            <label>estado</label>
+            <select name="estado">
+                <option value="0">selecione</option>
+                <option value="sp">sao paulo</option>
+                <option value="rj">rio de janeiro</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>area de interesse</legend>
+            <label><input type="checkbox"
+             name="html" value="html">html</label>
+
+            <label><input type="checkbox"
+            name="css" value="css">css</label>
+
+            <label><input type="checkbox"
+            name="javascript" value="javascript">javascript</label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>mensagem</legend>
+            <textarea name="msg"></textarea>
+        </fieldset>
+
+    </form>
+</body>
+</html>

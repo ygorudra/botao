@@ -1,0 +1,60 @@
+.imagens1{
+    float: left;
+    display: inline-block;
+    border: 10px solid;
+}
+
+.imagens2{
+    float: left;
+    display: inline-block;
+    border: 10px solid;
+}
+
+#wrap-1{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+}
+
+        #wrap-1 .logo {
+            float: left;
+         width: 200px;
+         border: 10px solid;
+         height: 200px;
+        background-color: teal;
+        }
+
+        #wrap-1 .redes-sociais {
+            float:left;
+            width: 700px;
+            height: 200px;
+            background-color: violet;
+    
+            }
+
+#wrap-1 .redes-sociais ul li{
+    /**display: inline-block;**/
+    float:left;
+    list-style: none;
+    margin-left: 55px;
+    /**margin-bottom: 2000px;**/
+    
+}
+
+.banner{
+    padding-bottom: 50px;
+    border: 5px solid;
+    padding-left:400px;
+    float: right;
+    width: 25%;
+}
+
+.header-1{
+    border: 10px solid;
+    width: 25%;
+}
+
+
+.wrap-2{
+    float: left;
+}
